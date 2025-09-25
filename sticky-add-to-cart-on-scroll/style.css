@@ -1,0 +1,10 @@
+.gempages-sticky-atc {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.gempages-sticky-atc.visible-atc {
+  opacity: 1;
+  pointer-events: auto;
+}
